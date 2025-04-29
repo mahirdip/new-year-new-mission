@@ -1,0 +1,122 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/*** Header Section ***/
+header {
+    background-image: url("resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    align-content: space-around;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.header-title {
+    text-align: center;
+}
+
+.little-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+.head-title {
+    font-size: 50px;
+    font-weight: 800;
+    color: red;
+}
+
+/************ Main Section ************/
+/* Article 1 Section */
+.first-article-container {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.article-1-title-1 {
+    font-size: 88px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 30px;
+}
+
+.article-1-description {
+    font-size: 24px;
+    font-weight: 400;
+    color: red;
+    margin-bottom: 0px;
+}
+.article-1-title-2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Article 2 */
+
+.article-2nd-container{
+    background-image: url("resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-2nd-title-1 {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 20px;
+}
+.article-2-description{
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.article-2nd-section{
+    color: white;
+    padding-right: 50px;
+    
+}
+.btn-join{
+    padding-left: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+/* Article 3 Section */
+
+.article-3rd-container{
+    justify-content: center;
+    text-align: center;
+    margin: 100px 280px;
+    border: 0px;
+    border-radius: 15px;
+    background-color: pink;
+    padding: 120px 0px;
+}
+
+.span-item{
+    color: red;
+}
+.btn-primary{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
